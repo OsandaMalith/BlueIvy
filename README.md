@@ -1,5 +1,5 @@
-BlueIvy
-=======
+Blue Ivy Logger
+===============
 
                                                                          
   Blue Ivy Logger is a powerful keylogger for Windows environments       
@@ -17,11 +17,6 @@ BlueIvy
                                                                          
   License: Attribution-NonCommercial-ShareAlike 4.0 International        
   http://creativecommons.org/licenses/by-nc-sa/4.0/                      
-                                                                         
-  Blue Ivy Logger by Osanda Malith Jayathissa is licensed under a        
-  Creative Commons Attribution-NonCommercial-ShareAlike                  
-  4.0 International License. Based on a work at                          
-  http://osandamalith.wordpress.com.                                     
                                                                          
 
 ## Modules Needed

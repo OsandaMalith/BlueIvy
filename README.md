@@ -1,8 +1,23 @@
 BlueIvy
 =======
 
-A Powerful Keylogger for Windows Environments
-
+--------------------------------------------------------------
+    __##                                          
+   /.__.\                                           
+   \ \/ /                      
+ __/  . \      
+ \-)   . )                  
+  \___._/                                                      
+ ___|_|____Blue Ivy Logger is a powerful keylogger for Windows 
+    " "    environments. You have a variety of options to      
+ generate your customized logger. Author takes no              
+ responsibility for any kind of damage you cause. This is     
+ developed for educational and research purposes only. Use     
+ this at your own risk. You should not use this to infect      
+ remote systems and perform any damage. \n\nClick Ok if you agree  
+\nClick Cancel if you don't agree.                     
+\n\nCopyright (C) 2014 Osanda Malith Jayathissa                  
+ --------------------------------------------------------------
 
 ## Modules Needed
 

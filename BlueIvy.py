@@ -4,8 +4,8 @@
 from __future__ import print_function
 from colorama import init, AnsiToWin32
 from colorama import Fore, Back, Style
-import os
 import sys
+import os
 
 init(wrap=False)
 stream = AnsiToWin32(sys.stderr).stream

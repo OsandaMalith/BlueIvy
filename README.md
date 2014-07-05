@@ -1,23 +1,28 @@
 BlueIvy
 =======
 
---------------------------------------------------------------
-    __##                                          
-   /.__.\                                           
-   \ \/ /                      
- __/  . \      
- \-)   . )                  
-  \___._/                                                      
- ___|_|____Blue Ivy Logger is a powerful keylogger for Windows 
-    " "    environments. You have a variety of options to      
- generate your customized logger. Author takes no              
- responsibility for any kind of damage you cause. This is     
- developed for educational and research purposes only. Use     
- this at your own risk. You should not use this to infect      
- remote systems and perform any damage. \n\nClick Ok if you agree  
-\nClick Cancel if you don't agree.                     
-\n\nCopyright (C) 2014 Osanda Malith Jayathissa                  
- --------------------------------------------------------------
+#########################################################################
+# Blue Ivy Logger is a powerful keylogger for Windows environments      #
+# You have a variety of options to generate your customized logger.     #
+# Author takes no responsibility for any kind of damage you cause.      #
+# This is developed for educational and research purposes only.         #
+# Use this at your own risk.                                            #
+#                                                                       #
+# Please note this tool may contain errors, and is provided "as it is". #  
+# There is no guarantee that it will work on your target system(s), as  #
+# the code may have to be adapted. This is to avoid script kiddie       #
+# abuse as well.                                                        #
+#                                                                       #
+# Copyright (C) 2014 Osanda Malith Jayathissa                           #
+#                                                                       #
+# License: Attribution-NonCommercial-ShareAlike 4.0 International       #
+# http://creativecommons.org/licenses/by-nc-sa/4.0/                     #
+#                                                                       #
+# Blue Ivy Logger by Osanda Malith Jayathissa is licensed under a       #
+# Creative Commons Attribution-NonCommercial-ShareAlike                 #
+# 4.0 International License. Based on a work at                         #
+# http://osandamalith.wordpress.com.                                    #
+#########################################################################
 
 ## Modules Needed
 

@@ -6,12 +6,12 @@ A Powerful Keylogger for Windows Environments
 
 Modules Needed
 
-	* PyHook - http://sourceforge.net/projects/pyhook/
-	* Pythoncom - http://sourceforge.net/projects/pywin32/
-	* Colorama- pip install colorama
-	* Autopy- pip install autopy
-	* Twilio (If you are using the SMS Logger) - pip install twilio
-	* PyHook - http://sourceforge.net/projects/pyhook/
+* PyHook - http://sourceforge.net/projects/pyhook/
+* Pythoncom - http://sourceforge.net/projects/pywin32/
+* Colorama- pip install colorama
+* Autopy- pip install autopy
+* Twilio (If you are using the SMS Logger) - pip install twilio
+* PyHook - http://sourceforge.net/projects/pyhook/
 
 
 

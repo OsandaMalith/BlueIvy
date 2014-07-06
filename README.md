@@ -28,6 +28,7 @@ Blue Ivy Logger
 #### For the Client
 * Colorama - `$pip install colorama` - https://pypi.python.org/pypi/colorama
 * ~~Autopy - `$pip install autopy` - http://www.autopy.org/~~ 
+
 I removed it as you have to install lot of dependencies for *nix systems.
 
 #### For the Generated Keyloggers

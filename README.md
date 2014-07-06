@@ -29,7 +29,7 @@ Blue Ivy Logger
 * Colorama - `$pip install colorama` - https://pypi.python.org/pypi/colorama
 * ~~Autopy - `$pip install autopy` - http://www.autopy.org/~~ 
 
-I removed it as you have to install lot of dependencies for *nix systems.
+I removed autopy as you have to install lot of dependencies for *nix systems.
 
 #### For the Generated Keyloggers
 * PyHook - http://sourceforge.net/projects/pyhook/

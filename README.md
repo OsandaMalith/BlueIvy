@@ -35,7 +35,7 @@ I removed autopy as you have to install lot of dependencies for *nix systems.
 * PyHook - http://sourceforge.net/projects/pyhook/
 * Pythoncom - http://sourceforge.net/projects/pywin32/
 * Winshell - `$pip install winshell` - https://pypi.python.org/pypi/winshell
-* Twilio (If you are using the SMS Logger) - `pip install twilio` - https://github.com/twilio/twilio-python/zipball/master
+* Twilio (If you are using the SMS Logger) - `$pip install twilio` - https://github.com/twilio/twilio-python/zipball/master
 
 ## Video
 

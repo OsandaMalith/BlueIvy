@@ -37,7 +37,7 @@ Blue Ivy Logger
 
 ## Video
 
-http://www.youtube.com/embed/qUs8Q1xCWFk
+* http://www.youtube.com/embed/qUs8Q1xCWFk
 
 <img src="http://i.imgur.com/S8HXkPI.png">
 

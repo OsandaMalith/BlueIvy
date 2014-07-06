@@ -19,7 +19,7 @@ Blue Ivy Logger
   http://creativecommons.org/licenses/by-nc-sa/4.0/                      
                                                                          
 
-## Modules Needed
+## Modules Required
 
 - The client and the generated keyloggers supports both Python 3 and Python 2.7
 - The client is made cross-platform. Can generate customized loggers from any OS.

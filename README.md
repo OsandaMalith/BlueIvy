@@ -25,8 +25,8 @@ Supports both Python 3 and Python 2.7
 
 * PyHook - http://sourceforge.net/projects/pyhook/
 * Pythoncom - http://sourceforge.net/projects/pywin32/
-* Colorama- pip install colorama
-* Autopy- pip install autopy
+* Colorama- `pip install colorama`
+* Autopy- `pip install autopy`
 * Twilio (If you are using the SMS Logger) - pip install twilio
 
 ## Video

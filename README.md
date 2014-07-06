@@ -27,12 +27,12 @@ Blue Ivy Logger
 
 #### For the Client
 * Colorama - `$pip install colorama` - https://pypi.python.org/pypi/colorama
-* Autopy - `$pip install autopy` - http://www.autopy.org/
-* Winshell - `$pip install winshell` - https://pypi.python.org/pypi/winshell
+* ~~Autopy - `$pip install autopy` - http://www.autopy.org/~~ I removed it as you have to install lot of dependencies for *nix systems.
 
 #### For the Generated Keyloggers
 * PyHook - http://sourceforge.net/projects/pyhook/
 * Pythoncom - http://sourceforge.net/projects/pywin32/
+* Winshell - `$pip install winshell` - https://pypi.python.org/pypi/winshell
 * Twilio (If you are using the SMS Logger) - `pip install twilio` - https://github.com/twilio/twilio-python/zipball/master
 
 ## Video

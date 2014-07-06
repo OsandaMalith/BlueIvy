@@ -23,6 +23,7 @@ Blue Ivy Logger
 
 - The client and the generated keyloggers supports both Python 3 and Python 2.7
 - The client is made cross-platform. Can generate customized loggers from any OS.
+- There is executable client compiled for Windows platforms.
 
 #### For the Client
 * Colorama - `$pip install colorama` - https://pypi.python.org/pypi/colorama
@@ -32,7 +33,7 @@ Blue Ivy Logger
 #### For the Generated Keyloggers
 * PyHook - http://sourceforge.net/projects/pyhook/
 * Pythoncom - http://sourceforge.net/projects/pywin32/
-* Twilio (If you are using the SMS Logger) - pip install twilio
+* Twilio (If you are using the SMS Logger) - `pip install twilio` - https://github.com/twilio/twilio-python/zipball/master
 
 ## Video
 

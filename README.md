@@ -23,7 +23,7 @@ Blue Ivy Logger
 
 - The client and the generated keyloggers supports both Python 3 and Python 2.7
 - The client is made cross-platform. Can generate customized loggers from any OS.
-- There is executable client compiled for Windows platforms.
+- There is a executable client compiled for Windows platforms.
 
 #### For the Client
 * Colorama - `$pip install colorama` - https://pypi.python.org/pypi/colorama
